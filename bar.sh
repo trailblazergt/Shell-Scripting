@@ -1,5 +1,5 @@
 #Shell script that accepts two directory names, bar1 and bar2,
-#Delete those files in the bar2 which are identical ti their namesakes in bar1
+#Delete those files in the bar2 which are identical in their namesakes in bar1
 
 
 
