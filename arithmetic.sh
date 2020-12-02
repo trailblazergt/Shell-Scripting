@@ -1,3 +1,8 @@
+#Shell program to add two integer values
+#and check if any input is given or not
+
+
+
 #!/usr/bin/bash
 read -p "Input1 : " inp1
 if [[ -z $inp1 ]]
