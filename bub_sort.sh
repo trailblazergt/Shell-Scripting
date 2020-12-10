@@ -7,8 +7,8 @@ do
     echo -ne "$elem  "
 done
 echo
-for (( i = 0; i <= ${#arr[@]}; i++ )); do
-    for (( j = 0; j <= ${#arr[@]}-$i-1; j++ )); do
+for (( i = 0; i < ${#arr[@]}; i++ )); do
+    for (( j = 0; j < ${#arr[@]}-$i-1; j++ )); do
         if [ ${arr[j]} -gt ${arr[j+1]} ]; then
             t=${arr[$j]}
             arr[$j]=${arr[$j+1]}
