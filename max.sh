@@ -6,5 +6,5 @@ for v in ${arr[@]}; do
     if (( $v > $max )); then max=$v; fi;
 	if (( $v < $min )); then min=$v; fi; 
 done
-echo "Max value $max"
-echo "Min value $min"
+echo "Maximum value $max"
+echo "Minimum value $min"
